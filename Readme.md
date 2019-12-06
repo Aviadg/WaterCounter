@@ -4,8 +4,9 @@ Installation
 2. cd to repo Dir
 3. create venv
 4. activate venv
-5. Run pip install -r requirments.txt
-6. add "<cwd>/tensorflow_object_counting_api" to PATH & PYTHONPATH - Needs to be done each time you activate the venv
+5. pip install --upgrade pip
+6. Run pip install -r requirments.txt
+7. add "<cwd>/tensorflow_object_counting_api" to PATH & PYTHONPATH - Needs to be done each time you activate the venv
 
 Usage
 
