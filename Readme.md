@@ -9,5 +9,6 @@ Installation
 
 Usage
 
-1. from "<cwd>/tensorflow_object_counting_api" run "python ".../frontend/app.py"
+1. DEPRECATED --- from "<cwd>/tensorflow_object_counting_api" run "python ".../frontend/app.py" ---
+1. Run "python main.py"
 2. browse to "localhost:5000"
