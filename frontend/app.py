@@ -1,9 +1,13 @@
 from flask import Flask, render_template, request, redirect, url_for, send_file
 import os
-from Aviad_single_image_object_counting import detect 
 from flask_bootstrap import Bootstrap
 import multiprocessing
 import time
+import sys
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(os.getcwd()),'tensorflow_object_counting_api')))
+from Aviad_single_image_object_counting import detect 
+
 
 app = Flask(__name__)
 Bootstrap(app)
